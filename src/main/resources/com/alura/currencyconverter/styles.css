@@ -1,0 +1,95 @@
+.root {
+    -fx-base: rgb(50, 50, 50);
+    -fx-background-color:black;
+}
+
+.result-title1 {
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+}
+
+.result-title2 {
+    -fx-font-size: 25pt;
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+}
+
+.text-field-from {
+    -fx-font-size: 25pt;
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+    -fx-max-width: 250px;
+    -fx-background-color: white;
+}
+
+.text-field-to {
+    -fx-font-size: 25pt;
+    -fx-text-fill: blue;
+    -fx-font-family: Arial;
+    -fx-max-width: 250px;
+    -fx-background-color: white;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-font-size: 20pt;
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+}
+
+.combo-box-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box-base:showing
+{
+    -fx-color: -fx-pressed-base;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.table-view {
+    -fx-table-cell-border-color:derive(-fx-base,+10%);
+    -fx-table-header-border-color:derive(-fx-base,+20%);
+}
+
+.label {
+    -fx-text-fill:white;
+}
+
+.primary-button {
+  -fx-background-color:green;
+  -fx-text-fill:white;
+  -fx-font-size:12pt;
+  -fx-border-width: 1;
+  -fx-border-style: solid;
+  -fx-border-color: white;
+}
+
+.danger-button {
+  -fx-background-color:red;
+  -fx-text-fill:white;
+  -fx-font-size:12pt;
+}
+
+.info-button {
+  -fx-background-color:blue;
+  -fx-text-fill:white;
+  -fx-font-size:12pt;
+}
+
+.button1{
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
